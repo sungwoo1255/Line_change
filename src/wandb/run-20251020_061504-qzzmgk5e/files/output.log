@@ -1,0 +1,3 @@
+/opt/conda/lib/python3.10/site-packages/torch/nn/modules/rnn.py:911: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /opt/conda/conda-bld/pytorch_1716905979055/work/aten/src/ATen/native/cudnn/RNN.cpp:1424.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+Epoch [1/500], Train Loss: 0.0087, Val Loss: 0.0091, Val Accuracy: 49.11%
